@@ -3,14 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="/index.html">Blog Posts</a> |
+            <a href="/about.html">About</a> |
+            <a href="/contact.html">Contact</a> |
+        </nav>
+    </header>
+
+    <h1>Contact Arita</h1>
     <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
+        <label for="fullName">Name:</label><br>
+        <input type="text" id="fullName" name="fullName"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email">
+        <br>
+        <label for="contact">Reason for contact:</label>
+        <br>
+        <select id="contact" name="contact">
+            <option value="hi">Saying hi</option>
+            <option value="contractor">Looking for a contractor</option>
+            <option value="fiat">Interested in an interview</option>
+        </select>
+        <br>
+        <p>Leave a comment here: </p>
+        <textarea name="message"></textarea>
+        <br>
+        <button type="button">Submit</button>
+
     </form>
 
 </body>
