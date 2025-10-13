@@ -201,7 +201,7 @@ h1, h2, h3, h4 {
     font-family: 'DM Serif Text', serif;
 }
 
-p, li, a, table, form {
+p, li, a, table, form, figcaption {
     font-family: 'Rubik', sans-serif;
 }
 
