@@ -6,6 +6,12 @@
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <header>
@@ -20,10 +26,10 @@
 
     <form name="contact" method="POST" data-netlify="true">
     <p>
-        <label>Name: <input type="text" name="name" /></label>
+        <label>Name: <input type="text" name="name"></label>
     </p>
     <p>
-        <label>Email: <input type="email" name="email" /></label>
+        <label>Email: <input type="email" name="email"></label>
     </p>
     <p>
         <label>Reason for Contact: <select name="reason[]">
@@ -34,7 +40,7 @@
         </label>
     </p>
     <p>
-        <label>Leave a comment here: <br><textarea name="message"></textarea></label>
+        <label>Leave a comment here: <textarea name="message"></textarea></label>
     </p>
     <p>
         <button type="submit">Submit</button>

@@ -13,6 +13,11 @@
     <title>Arita's Blog Posts</title>
     <link rel="stylesheet" href="style.css">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -32,9 +37,14 @@
     <article>
         <h2>Day in My Life</h2>
         <h3>This is what my typical Monday looks like during the Fall Semester of 2025 at Michigan State University, as a Computer Science major. </h3>
-        <h4>Published by Arita Zaman on September 23, 2025</h4>
-        <img src="msu.jpg" width="400" alt="Beaumont Tower" class = "blog-image">
 
+        <figure class = "blog-image">
+            <img src="spartan.jpg" width="400" alt="Beaumont Tower">
+            <figcaption>This is the Spartan Statue, an iconic part of the MSU campus.</figcaption>
+        </figure>
+        <h4>Published by Arita Zaman on September 23, 2025</h4>
+
+        <div class = "myDay">
 
         <ol>
             <li>I wake up at <strong>7:25 AM</strong> and get ready for the day. </li>
@@ -57,85 +67,98 @@
             <li>I attend the AI Club meeting until <strong>7pm</strong>, and once that ends I've had a long day and head back to my dorm. </li>
             <li>I wrap up my studying for the day, and wind down with a movie or TV show. </li>
         </ol>
+        </div>
+
     </article>
 
     <article>
         <h2>Blueberry Muffin Recipe</h2>
         <h3>This is my favorite recipe for making blueberry muffins. </h3>
         <h4>Published by Arita Zaman on September 28, 2025</h4>
-        <img src="muffins.jpg" width="300" alt="Beaumont Tower">
 
-        <p>To make this recipe, you will need:</p>
-        <table>
-            <tr>
-                <th>Ingredient</th>
-                <th>Quantity</th>
-            </tr>
-            <tr>
-                <td>Melted Butter</td>
-                <td>1/2 cup</td>
-            </tr>
-            <tr>
-                <td>Granulated Sugar</td>
-                <td>1 cup</td>
-            </tr>
-            <tr>
-                <td>Large Eggs</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>Sour Cream</td>
-                <td>1/3 cup</td>
-            </tr>
-            <tr>
-                <td>Milk</td>
-                <td>1/3 cup</td>
-            </tr>
-            <tr>
-                <td>All-purpose Flour</td>
-                <td>2 cups</td>
-            </tr>
-            <tr>
-                <td>Baking Powder</td>
-                <td>1 and 1/2 teaspoon</td>
-            </tr>
-            <tr>
-                <td>Vanilla Extract</td>
-                <td>1/2 tablespoon</td>
-            </tr>
-            <tr>
-                <td>Salt</td>
-                <td>1/4 teaspoon</td>
-            </tr>
-            <tr>
-                <td>Frozen Blueberries</td>
-                <td>1 cup</td>
-            </tr>
-        </table>
+        <div class = "recipe-flex">
 
-        <p>Now that you have your ingredients, here's how you can turn them into delicious muffins:</p>
-        <ol>
-            <li>Pre-heat your oven to 400 degrees F.</li>
-            <li>In a large mixing bowl, mix together the <strong>butter</strong> and <strong>sugar</strong> for 2 minutes.</li>
-            <li>Once fully combined, add in 1 <strong>egg</strong> at a time and mix again.</li>
-            <li>Then add <strong>vanilla, sour cream, and milk</strong>. Mix again and set aside.</li>
-            <li>In a smaller bowl, whisk together <strong>flour, baking powder, and salt</strong>.</li>
-            <li>Gently fold the dry batter into the wet batter.</li>
-            <li>Gently fold in the <strong>frozen blueberries</strong>.</li>
-            <li>Scoop into a lined muffin pan.</li>
-            <li>Bake for 25 to 30 minutes.</li>
-        </ol>
+            <div class = "recipe-left">
+                
+                <p>To make this recipe, you will need:</p>
+                <table>
+                    <tr>
+                        <th>Ingredient</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>Melted Butter</td>
+                        <td>1/2 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Granulated Sugar</td>
+                        <td>1 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Large Eggs</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Sour Cream</td>
+                        <td>1/3 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Milk</td>
+                        <td>1/3 cup</td>
+                    </tr>
+                    <tr>
+                        <td>All-purpose Flour</td>
+                        <td>2 cups</td>
+                    </tr>
+                    <tr>
+                        <td>Baking Powder</td>
+                        <td>1 and 1/2 teaspoon</td>
+                    </tr>
+                    <tr>
+                        <td>Vanilla Extract</td>
+                        <td>1/2 tablespoon</td>
+                    </tr>
+                    <tr>
+                        <td>Salt</td>
+                        <td>1/4 teaspoon</td>
+                    </tr>
+                    <tr>
+                        <td>Frozen Blueberries</td>
+                        <td>1 cup</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "recipe-right">
+                <p>Now that you have your ingredients, here's how you can turn them into delicious muffins:</p>
+                <ol>
+                    <li>Pre-heat your oven to 400 degrees F.</li>
+                    <li>In a large mixing bowl, mix together the <strong>butter</strong> and <strong>sugar</strong> for 2 minutes.</li>
+                    <li>Once fully combined, add in 1 <strong>egg</strong> at a time and mix again.</li>
+                    <li>Then add <strong>vanilla, sour cream, and milk</strong>. Mix again and set aside.</li>
+                    <li>In a smaller bowl, whisk together <strong>flour, baking powder, and salt</strong>.</li>
+                    <li>Gently fold the dry batter into the wet batter.</li>
+                    <li>Gently fold in the <strong>frozen blueberries</strong>.</li>
+                    <li>Scoop into a lined muffin pan.</li>
+                    <li>Bake for 25 to 30 minutes.</li>
+                </ol>
+                <div class = "imgContainer">
+                <img src="muffins.jpg" width="300" alt="Blueberry Muffins" class = "recipe-image">
+                </div>
+            </div>
+
+        </div>
+
     </article>
 
-
-
   <form onsubmit="handleSubmit(event)">
+
     <label for="email">Email Address:</label>
     <input type="email" id = "email" name="email" placeholder="Enter your email" required>
-    <br>
-    <input type="checkbox" id = "consent" name="consent" required>
-    <label for="consent">I agree to receive newsletter emails.</label>
-    <br>
+    <div class ="checkbox">
+        <input type="checkbox" id = "consent" name="consent" required>
+        <label for="consent">I agree to receive newsletter emails.</label>
+    </div>
     <button type="submit" class="mt-3">Subscribe</button>
   </form>
 
